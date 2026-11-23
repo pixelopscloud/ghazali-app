@@ -6,4 +6,8 @@ function greet(name) {
   return `Hello, ${name}!`;
 }
 
-module.exports = { add, greet };
+function subtract(a, b) {
+  return a - b;
+}
+
+module.exports = { add, greet, subtract };
